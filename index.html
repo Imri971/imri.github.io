@@ -26,9 +26,7 @@
         <title>Innolab 62</title>
         
     </head>
-    <body>
-        <header class="header_index">
-            <nav class="navbar navbar-expand-lg navbar-light ">
+    <body><nav class="navbar navbar-expand-lg navbar-light ">
                 
                 <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -41,7 +39,7 @@
                 <div class="collapse navbar-collapse " id="navbarNavDropdown">
                   <ul class="navbar-nav m-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html" >À propos</a>
+                    <a class="nav-link" href="index.html" >Accueil</a>
                   </li>
                   <li class="nav-item ">
                       <a class="nav-link" href="#" >
@@ -68,6 +66,8 @@
                         
                 </ul>
                 </nav>
+            
+        <header class="header_index">
             
 
                 <div class="container banner d-block">
@@ -132,7 +132,7 @@
                      <h2 class="text-center title__contact mb-3 title_yellow"  >Nos programmes s'appuient sur 3 piliers</h2>
                      <div class="title__bar mt-3 "></div>
                   </div>  
-                    <div class="row contact_container text-center ">
+                    <div class="row contact_container text-center m-auto">
                         
   
                         <div class=" block col-md-4 mb-4 pt-3 d-flex justify-content-center">
@@ -388,19 +388,7 @@
           $(".menu_list").toggleClass("open");
         })
       
-        $(window).on("scroll", function() {
-          if($(window).scrollTop() > 10){
-             
-              $('.navbar').addClass("navbar_scroll");
-              $('.navbar').css("background-color","#fff");
-              
-          }
-          else {
-          
-            $('.navbar').css("background-color","transparent");
-             
-          }
-      });
+     
       
       </script>
     </body>

@@ -61,10 +61,10 @@
       padding-top: 5.5rem;
     }
     .navbar{
-      position: fixed;
+      position: fixed !;
       top: 0;
       width: 100%;
-      z-index: 1000;
+    
     }
 
     .item-thumbnail .logo_banner {
@@ -157,7 +157,9 @@
   header .header-bottom h1 {
     line-height: 50px;
   }
-  
+  .banner__title{
+    font-size: 3rem;
+  }
   .breadcrumbs {
     line-height: 50px;
     text-align: left;
