@@ -4,8 +4,7 @@
 /* ---------------------------------------------------------------------- */
 /*	Version 1200px
 /* ---------------------------------------------------------------------- */
-@media handheld,
-only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .testimonials .testimonials-item {
     font-size: 0.95em;
   }
